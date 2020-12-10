@@ -1,7 +1,8 @@
-export default function Notas({citas, quitarCita}){
+export default function Citas({citas, quitarCita}){
     return(
         <div className="citas">
-            <h2>Citas</h2>
+            <h2>Veterinaria Huellitas</h2>
+            <p>Citas</p>
             {citas.length !== 0 ?
                 <div className="lista">
                     {citas.map((cita, index)=>(
